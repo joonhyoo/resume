@@ -1,4 +1,4 @@
-#import "vantage-typst.typ": skill, styled-link, term, vantage
+#import "vantage-typst.typ": styled-link, term, vantage
 #let configuration = yaml("configuration.yaml")
 
 #vantage(
@@ -11,27 +11,28 @@
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
     (name: "location", link: "", display: configuration.contacts.address),
   ),
-  tagline: (configuration.tagline),
   [
+
+    == Projects
+
+    #for project in configuration.projects [
+      === #link(project.link)[#project.title] \
+      #for point in project.description [
+        - #point
+      ]
+    ]
 
     == Experience
 
     #for job in configuration.jobs [
       === #job.position \
-      _#link(job.company.link)[#job.company.name]_ - #styled-link(job.product.link)[#job.product.name] \
+      #job.company.name - #job.type\
       #term[#job.from --- #job.to][#job.location]
 
       #for point in job.description [
         - #point
       ]
     ]
-
-  ],
-  [
-    == Objective
-
-    #configuration.objective
-
 
     == Education
 
@@ -48,35 +49,18 @@
 
     ]
 
-    == Technical Expertise
-
-    #for expertise in configuration.technical_expertise [
-      #skill(expertise.name, expertise.level)
-    ]
-
     == Skills/Exposure
 
     #for skill in configuration.skills [
       • #skill
     ]
 
-    == Methodology/Approach
-    #for method in configuration.methodology [
-      • #method
-    ]
-
-    == Tools
-    #for tool in configuration.tools [
-      • #tool
-    ]
-
-    == Achievements/Certifications
+    == Other
 
     #for achievement in configuration.achievements [
       === #achievement.name
       \
       #achievement.description
     ]
-
   ],
 )
