@@ -56,11 +56,12 @@
     ]
 
     == Other
-
-    #for achievement in configuration.achievements [
-      === #achievement.name
+    #for other in configuration.other [
+      === #other.name
       \
-      #achievement.description
+      #for item in other.items [
+        - #item
+      ]
     ]
   ],
 )

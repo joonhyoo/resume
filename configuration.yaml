@@ -32,6 +32,16 @@ jobs:
     from: "2024 Oct"
     to: "Present"
     location: Sydney, Australia
+  - position: Men's Co-Director
+    company:
+      name: Lynx Volleyball Club
+    type: Volunteer
+    description:
+      - Assisted in team selection & created the 2025 training jersey designs
+      - 2025 Sydney Volleyball League - Men's Division 2 Quarter Finalists
+    from: "2024 Mar"
+    to: "Present"
+    location: Sydney, Australia
 
 education:
   - place:
@@ -64,6 +74,8 @@ skills:
   - Git
   - SQL
 
-achievements:
-  - name: "Spoken Languages"
-    description: English (fluent), Japanese (Limited Working Proficiency)
+other:
+  - name: "Hobbies"
+    items:
+      - Competitive sports - Basketball & Volleyball
+      - Language learning - Limited Working Proficiency in Japanese
