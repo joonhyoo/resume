@@ -1,4 +1,4 @@
-#import "vantage-typst.typ": styled-link, term, vantage
+#import "vantage-typst.typ": grad, styled-link, term, vantage
 #let configuration = yaml("configuration.yaml")
 
 #vantage(
@@ -22,7 +22,7 @@
       ]
     ]
 
-    == Experience
+    == Work Experience
 
     #for job in configuration.jobs [
       === #job.position \
@@ -30,6 +30,18 @@
       #term[#job.from --- #job.to][#job.location]
 
       #for point in job.description [
+        - #point
+      ]
+    ]
+
+    == Volunteering
+
+    #for vol in configuration.volunteer [
+      === #vol.position \
+      #vol.company.name \
+      #term[#vol.from --- #vol.to][#vol.location]
+
+      #for point in vol.description [
         - #point
       ]
     ]
@@ -42,10 +54,8 @@
       ] else [
         #edu.place.name\
       ]
-
-      #edu.from - #edu.to #h(1fr) #edu.location
-
-      #edu.degree in #edu.major
+      #edu.degree #h(1fr) #edu.location\
+      #grad[#edu.complete]
 
     ]
 

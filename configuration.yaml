@@ -19,7 +19,8 @@ projects:
     link: https://github.com/joonhyoo/study-calendar
     description:
       - Full-Stack web application written in React and Postgres via a Supabase backend.
-      - Users log completed tasks for habits, and progress is visually displayed similar to Github's contribution tables.
+      - Users can add & edit habits & respective materials
+      - Users log completed tasks for habits, and progress is visually displayed.
 
 jobs:
   - position: Volleyball Coach
@@ -32,13 +33,14 @@ jobs:
     from: "2024 Oct"
     to: "Present"
     location: Sydney, Australia
+
+volunteer:
   - position: Men's Co-Director
     company:
       name: Lynx Volleyball Club
-    type: Volunteer
     description:
-      - Assisted in team selection & created the 2025 training jersey designs
-      - 2025 Sydney Volleyball League - Men's Division 2 Quarter Finalists
+      - Assisted in team selection
+      - Designed the 2026 training jersey & sold x copies
     from: "2024 Mar"
     to: "Present"
     location: Sydney, Australia
@@ -47,18 +49,14 @@ education:
   - place:
       name: University of New South Wales
       link: "https://www.unsw.edu.au/"
-    degree: "B.Sc."
-    major: Computer Science
-    from: "Feb 2022"
-    to: "Dec 2025"
+    degree: "B.Sc. in Computer Science"
+    complete: "Dec 2025"
     location: Kensington, Australia
   - place:
       name: Keio University
       link: "https://www.keio.ac.jp/en/"
-    degree: B.Sc.
-    major: Computer Science & Language Studies (Japanese)
-    from: "Mar 2025"
-    to: "Aug 2025"
+    degree: Spring Exchange Semester
+    complete: "Aug 2025"
     location: Tokyo, Japan
 
 skills:

@@ -73,5 +73,5 @@ Icons are from Lucide Icons and are subject to [their terms](https://lucide.dev/
 
 - Inspired by the work of [George Honeywood](https://github.com/GeorgeHoneywood/alta-typst).
 - Thanks to [Lucide Icons](https://lucide.dev/icons/) for providing the icon library.
-
-For any questions or contributions, feel free to open an issue or submit a pull request!
+- Thanks to [SVGrepo](https://www.svgrepo.com/svg/428085/study-university) for the graduate hat icon
+  For any questions or contributions, feel free to open an issue or submit a pull request!
