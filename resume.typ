@@ -17,6 +17,7 @@
 
     #for project in configuration.projects [
       === #link(project.link)[#project.title] \
+      // #project.description
       #for point in project.description [
         - #point
       ]

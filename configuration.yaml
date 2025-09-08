@@ -15,12 +15,13 @@ contacts:
 position: Final Year Computer Science Student
 
 projects:
-  - title: Shuukan - Visual Habit Tracker
+  - title: Shuukan - Visual Habit Tracker (WIP)
     link: https://github.com/joonhyoo/study-calendar
     description:
-      - Full-Stack web application written in React and Postgres via a Supabase backend.
-      - Users can add & edit habits & respective materials
-      - Users log completed tasks for habits, and progress is visually displayed.
+      - Habit tracking web-app built using React and Supabase
+      - Designed the UI/UX in Figma, focusing on mobile-first design and usability
+      - Implemented Supabase Auth and developed CRUD functionality for habits and grouped tasks
+      - Added progress visualizations to track progress across multiple habits
 
 jobs:
   - position: Volleyball Coach
@@ -28,8 +29,9 @@ jobs:
       name: Barker College
     type: Contract
     description:
-      - Head Coach for Barker's X Volleyball Team (Term 4 2025)
-      - Assistant Coach for Barker's 1sts Boys Volleyball Team (Term 4 2024)
+      - Head Coach for the Boys' 4ths Volleyball Team (2025-26)
+      - Assistant Coach for the Boys' 2nds Volleyball Team (2025-26)
+      - Helped coached games and trainings for the girls' & boys' teams (2024)
     from: "2024 Oct"
     to: "Present"
     location: Sydney, Australia
@@ -38,12 +40,12 @@ volunteer:
   - position: Men's Co-Director
     company:
       name: Lynx Volleyball Club
-    description:
-      - Assisted in team selection
-      - Designed the 2026 training jersey & sold x copies
+    location: Sydney, Australia
     from: "2024 Mar"
     to: "Present"
-    location: Sydney, Australia
+    description:
+      - Assisted with men's team selection and off-season social competitions
+      - Designed the 2025/26 training jersey which sold over 50 units
 
 education:
   - place:
