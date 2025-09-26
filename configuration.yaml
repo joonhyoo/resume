@@ -1,7 +1,7 @@
 contacts:
   name: Joon Yoo
   email: joonhyoo12@gmail.com
-  address: "Sydney, Australia"
+  address: Sydney, Australia
   linkedin:
     url: https://www.linkedin.com/in/joonhyoo/
     displayText: joonhyoo
@@ -15,11 +15,18 @@ contacts:
 position: Final Year Computer Science Student
 
 projects:
+  - title: "Confluence/Rovo: Answer Your Questions - Atlassian(WIP)"
+    link: https://github.com/unsw-cse-comp99-3900/capstone-project-25t3-3900-h18b-cherry
+    description:
+      - Built a Rovo agent that auto-detects and respond to commented questions on Confluence pages
+      - Agile workflow through writing Epic's and User Stories
+      - Built with Forge, NodeJS and TypeScript
+      - For access to the repo please contact me
   - title: Shuukan - Visual Habit Tracker (WIP)
     link: https://github.com/joonhyoo/study-calendar
     description:
-      - Habit tracking web-app built using React and Supabase
-      - Designed the UI/UX in Figma, focusing on mobile-first design and usability
+      - Built a habit tracking web-app built using React and Supabase
+      - Prototyped the user interface in Figma, focusing on mobile-first design and usability
       - Implemented Supabase Auth and developed CRUD functionality for habits and grouped tasks
       - Added progress visualizations to track progress across multiple habits
 
@@ -29,11 +36,11 @@ jobs:
       name: Barker College
     type: Contract
     description:
-      - Head Coach for the Boys' 4ths Volleyball Team (2025-26)
-      - Assistant Coach for the Boys' 2nds Volleyball Team (2025-26)
+      - Head Coach for the Boys' 4ths (2025-26)
+      - Assistant Coach for the Boys' 2nds (2025-26)
       - Helped coached games and trainings for the girls' & boys' teams (2024)
-    from: "2024 Oct"
-    to: "Present"
+    from: 2024 Oct
+    to: Present
     location: Sydney, Australia
 
 volunteer:
@@ -41,25 +48,28 @@ volunteer:
     company:
       name: Lynx Volleyball Club
     location: Sydney, Australia
-    from: "2024 Mar"
-    to: "Present"
-    description:
-      - Assisted with men's team selection and off-season social competitions
-      - Designed the 2025/26 training jersey which sold over 50 units
+    from: 2024 Mar
+    to: Present
 
 education:
   - place:
       name: University of New South Wales
-      link: "https://www.unsw.edu.au/"
-    degree: "B.Sc. in Computer Science"
-    complete: "Dec 2025"
+      link: https://www.unsw.edu.au/
+    degree: B.Sc. in Computer Science
+    complete: Dec 2025
     location: Kensington, Australia
   - place:
       name: Keio University
-      link: "https://www.keio.ac.jp/en/"
+      link: https://www.keio.ac.jp/en/
     degree: Spring Exchange Semester
-    complete: "Aug 2025"
+    # complete: Aug 2025
     location: Tokyo, Japan
+  - place:
+      name: Osaka University - Center for International Education and Exchange
+      link: https://ciee.osaka-u.ac.jp/en/
+    degree: Winter J-Ship Program
+    # complete: Jan 2025
+    location: Osaka, Japan
 
 skills:
   - JavaScript
@@ -67,7 +77,7 @@ skills:
   - Node.js
   - Supabase
   - Figma
-  - Postgres
+  - PostgreSQL
   - HTML/CSS
   - Python
   - Java
@@ -75,7 +85,7 @@ skills:
   - SQL
 
 other:
-  - name: "Hobbies"
+  - name: Hobbies
     items:
       - Competitive sports - Basketball & Volleyball
       - Language learning - Limited Working Proficiency in Japanese

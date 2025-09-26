@@ -16,6 +16,7 @@
     == Projects
 
     #for project in configuration.projects [
+      #show link: it => underline(stroke: (dash: "densely-dashed"), it)
       === #link(project.link)[#project.title] \
       // #project.description
       #for point in project.description [
@@ -41,9 +42,10 @@
       === #vol.position \
       #vol.company.name \
       #term[#vol.from --- #vol.to][#vol.location]
-
-      #for point in vol.description [
-        - #point
+      #if "description" in vol.keys() [
+        #for point in vol.description [
+          - #point
+        ]
       ]
     ]
 
@@ -56,7 +58,9 @@
         #edu.place.name\
       ]
       #edu.degree #h(1fr) #edu.location\
-      #grad[#edu.complete]
+      #if "complete" in edu.keys() [
+        #grad[#edu.complete]
+      ]
 
     ]
 
