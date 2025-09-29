@@ -8,14 +8,14 @@ contacts:
   github:
     url: https://github.com/joonhyoo/
     displayText: "@joonhyoo"
-  website:
-    url: https://joonhyoo.dev
-    displayText: joonhyoo.dev
+  # website:
+  #   url: https://joonhyoo.dev
+  #   displayText: joonhyoo.dev
 
 position: Final Year Computer Science Student
 
 projects:
-  - title: "Confluence/Rovo: Answer Your Questions - Atlassian(WIP)"
+  - title: "Confluence/Rovo: Answer Your Questions - Atlassian (WIP)"
     link: https://github.com/unsw-cse-comp99-3900/capstone-project-25t3-3900-h18b-cherry
     description:
       - Built a Rovo agent that auto-detects and respond to commented questions on Confluence pages
