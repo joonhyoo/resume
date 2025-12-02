@@ -9,19 +9,35 @@
     // (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
-    (name: "location", link: "", display: configuration.contacts.address),
+    // (name: "location", link: "", display: configuration.contacts.address),
   ),
   [
+    == Education
 
+    #for edu in configuration.education [
+      === #if edu.place.link != "" [
+        #link(edu.place.link)[#edu.place.name] \
+      ] else [
+        #edu.place.name \
+      ]
+      #edu.degree \
+      #if "courses" in edu.keys() [
+        #for course in edu.courses [
+          - #course [DN]\
+        ]
+      ]
+      #term[#edu.complete][#edu.location] \
+
+    ]
     == Projects
 
     #for project in configuration.projects [
       #show link: it => underline(stroke: (dash: "densely-dashed"), it)
-      === #link(project.link)[#project.title] \
+      === #project.title \
       // #project.description
       #for point in project.description [
-        - #point
-      ]
+        #point
+      ] \
     ]
 
     == Work Experience
@@ -47,27 +63,6 @@
           - #point
         ]
       ]
-    ]
-
-    == Education
-
-    #for edu in configuration.education [
-      === #if edu.place.link != "" [
-        #link(edu.place.link)[#edu.place.name]\
-      ] else [
-        #edu.place.name\
-      ]
-      #edu.degree #h(1fr) #edu.location\
-      #if "complete" in edu.keys() [
-        #grad[#edu.complete]
-      ]
-
-    ]
-
-    == Skills/Exposure
-
-    #for skill in configuration.skills [
-      • #skill
     ]
 
     == Other

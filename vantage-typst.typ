@@ -55,7 +55,7 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(9.8pt, font: "PT sans")
+  set text(9.8pt, font: "Cantarell")
   set page(
     margin: (x: 1.2cm, y: 1.2cm),
   )

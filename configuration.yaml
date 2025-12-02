@@ -14,22 +14,41 @@ contacts:
 
 position: Final Year Computer Science Student
 
-projects:
-  - title: "Confluence/Rovo: Answer Your Questions - Atlassian (WIP)"
-    link: https://github.com/unsw-cse-comp99-3900/capstone-project-25t3-3900-h18b-cherry
-    description:
-      - Built a Rovo agent that auto-detects and respond to commented questions on Confluence pages
-      - Agile workflow through writing Epic's and User Stories
-      - Built with Forge, NodeJS and TypeScript
-      - For access to the repo please contact me
-  - title: Shuukan - Visual Habit Tracker (WIP)
-    link: https://github.com/joonhyoo/study-calendar
-    description:
-      - Built a habit tracking web-app built using React and Supabase
-      - Prototyped the user interface in Figma, focusing on mobile-first design and usability
-      - Implemented Supabase Auth and developed CRUD functionality for habits and grouped tasks
-      - Added progress visualizations to track progress across multiple habits
+education:
+  - place:
+      name: University of New South Wales
+      link: https://www.unsw.edu.au/
+    degree: B.Sc. Computer Science
+    courses:
+      - COMP3121 Algorithms and Programming Techniques
+      - COMP6080 Web Front-End Programming
+      - COMP3511 Human Computer Interaction
+      - COMP4511 User Interface Design & Construction
+    complete: Dec 2025
+    location: Kensington, Australia
+  - place:
+      name: Keio University
+      link: https://www.keio.ac.jp/en/
+    complete: Aug 2025
+    degree: Spring Exchange Semester
+    location: Tokyo, Japan
+  - place:
+      name: Osaka University - Center for International Education and Exchange
+      link: https://ciee.osaka-u.ac.jp/en/
+    degree: Winter J-Ship Program
+    complete: Feb 2025
+    location: Osaka, Japan
 
+projects:
+  - title: "Confluence/Rovo: Answer Your Questions"
+    description:
+      - Developer in a 6 man team that built an Atlassian Forge Application to auto-detect and respond to comments on Confluence pages.
+      - The application used Gemini to generate responses, fed the page data through Qdrant's Vector Database, and was then displayed though an interactive FAQ Macro.
+      - I used React to build the front-end FAQ macro and implemented email escalation in Javascript using the SendGrid API.
+  - title: Shuukan - Visual Habit Tracker (WIP)
+    description:
+      - Built using React and Supabase, Shuukan is a responsive web app designed to help users maintain their habits.
+      - "Source code can be found here: https://github.com/joonhyoo/study-calendar"
 jobs:
   - position: Volleyball Coach
     company:
@@ -39,7 +58,7 @@ jobs:
       - Head Coach for the Boys' 4ths (2025-26)
       - Assistant Coach for the Boys' 2nds (2025-26)
       - Helped coached games and trainings for the girls' & boys' teams (2024)
-    from: 2024 Oct
+    from: Oct 2024
     to: Present
     location: Sydney, Australia
 
@@ -48,44 +67,11 @@ volunteer:
     company:
       name: Lynx Volleyball Club
     location: Sydney, Australia
-    from: 2024 Mar
-    to: Present
-
-education:
-  - place:
-      name: University of New South Wales
-      link: https://www.unsw.edu.au/
-    degree: B.Sc. in Computer Science
-    complete: Dec 2025
-    location: Kensington, Australia
-  - place:
-      name: Keio University
-      link: https://www.keio.ac.jp/en/
-    degree: Spring Exchange Semester
-    # complete: Aug 2025
-    location: Tokyo, Japan
-  - place:
-      name: Osaka University - Center for International Education and Exchange
-      link: https://ciee.osaka-u.ac.jp/en/
-    degree: Winter J-Ship Program
-    # complete: Jan 2025
-    location: Osaka, Japan
-
-skills:
-  - JavaScript
-  - React
-  - Node.js
-  - Supabase
-  - Figma
-  - PostgreSQL
-  - HTML/CSS
-  - Python
-  - Java
-  - Git
-  - SQL
+    from: Mar 2024
+    to: Dec 2025
 
 other:
   - name: Hobbies
     items:
       - Competitive sports - Basketball & Volleyball
-      - Language learning - Limited Working Proficiency in Japanese
+      - Language learning - JLPT N2 (Expected January 2026)
