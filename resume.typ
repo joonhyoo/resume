@@ -35,9 +35,11 @@
       #show link: it => underline(stroke: (dash: "densely-dashed"), it)
       === #project.title \
       // #project.description
+      *Tech:* #project.tech\
       #for point in project.description [
         #point
-      ] \
+      ]\
+
     ]
 
     == Work Experience

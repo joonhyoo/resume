@@ -12,7 +12,7 @@ contacts:
   #   url: https://joonhyoo.dev
   #   displayText: joonhyoo.dev
 
-position: Final Year Computer Science Student
+position: Graduate Software Engineer
 
 education:
   - place:
@@ -41,15 +41,18 @@ education:
 
 projects:
   - title: "Confluence/Rovo: Answer Your Questions"
+    tech: React, Javascript, CSS, Git, Jira
     description:
       - Developer in a 6 person team that built an Atlassian Forge Application to auto-detect and respond to comments on Confluence pages.
       - The application used Gemini to generate responses, fed the page data through Qdrant's Vector Database, and was then displayed though an interactive FAQ Macro.
       - Used React to build the front-end FAQ macro and implemented email escalation in Vanilla Javascript using the SendGrid API.
   - title: Shuukan - Visual Habit Tracker (WIP)
+    tech: React, CSS, SupaBase, Git
     description:
       - Built using React and Supabase, Shuukan is a responsive web app designed to help users maintain their habits.
       - "Source code can be found here: https://github.com/joonhyoo/study-calendar"
   - title: "BearGuide"
+    tech: React Native, Balsamiq, Figma, Git
     description:
       - Worked in a team of 4 to create an app to help students find study spaces at UNSW.
       - Written in React Native and designed using Balsamiq and Figma wireframes.
