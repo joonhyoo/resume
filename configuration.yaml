@@ -47,7 +47,7 @@ projects:
       - The application used Gemini to generate responses, fed the page data through Qdrant's Vector Database, and was then displayed though an interactive FAQ Macro.
       - Used React to build the front-end FAQ macro and implemented email escalation in Vanilla Javascript using the SendGrid API.
   - title: Shuukan - Visual Habit Tracker (WIP)
-    tech: React, CSS, SupaBase, Git
+    tech: React, TailwindCSS, SupaBase, Git
     description:
       - Built using React and Supabase, Shuukan is a responsive web app designed to help users maintain their habits.
       - "Source code can be found here: https://github.com/joonhyoo/study-calendar"
