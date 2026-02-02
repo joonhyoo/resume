@@ -21,11 +21,6 @@
         #edu.place.name \
       ]
       #edu.degree \
-      #if "courses" in edu.keys() [
-        #for course in edu.courses [
-          - #course [DN]\
-        ]
-      ]
       #term[#edu.complete][#edu.location] \
 
     ]
@@ -37,9 +32,8 @@
       // #project.description
       *Tech:* #project.tech\
       #for point in project.description [
-        #point
-      ]\
-
+       - #point
+      ]
     ]
 
     == Work Experience
@@ -51,19 +45,6 @@
 
       #for point in job.description [
         - #point
-      ]
-    ]
-
-    == Volunteering
-
-    #for vol in configuration.volunteer [
-      === #vol.position \
-      #vol.company.name \
-      #term[#vol.from --- #vol.to][#vol.location]
-      #if "description" in vol.keys() [
-        #for point in vol.description [
-          - #point
-        ]
       ]
     ]
 

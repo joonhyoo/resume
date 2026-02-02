@@ -19,11 +19,6 @@ education:
       name: University of New South Wales
       link: https://www.unsw.edu.au/
     degree: B.Sc. Computer Science
-    courses:
-      - COMP3121 Algorithms and Programming Techniques
-      - COMP6080 Web Front-End Programming
-      - COMP3511 Human Computer Interaction
-      - COMP4511 User Interface Design & Construction
     complete: Dec 2025
     location: Kensington, Australia
   - place:
@@ -43,43 +38,46 @@ projects:
   - title: "Confluence/Rovo: Answer Your Questions"
     tech: React, Javascript, CSS, Git, Jira
     description:
-      - Developer in a 6 person team that built an Atlassian Forge Application to auto-detect and respond to comments on Confluence pages.
-      - The application used Gemini to generate responses, fed the page data through Qdrant's Vector Database, and was then displayed though an interactive FAQ Macro.
-      - Used React to build the front-end FAQ macro and implemented email escalation in Vanilla Javascript using the SendGrid API.
+      - Designed and implemented the FAQ macro component using React.
+      - Created the auto-escalation email feature, using the SendGrid API in vanilla Javascript.
+      - Reviewed and approved ~20% of pull requests by team mebmbers.
+      - Supported the team's execution through monitoring progress, and proactively addressing code quality/stability concerns in meetings.
+      - Participated in weekly stand-ups and adhered to Agile methodologies, ensuring features were delivered in a timely manner.
+      - Presented live technical demos for the client and incorporated feedback into subsequent versions.
   - title: Shuukan - Visual Habit Tracker (WIP)
     tech: React, TailwindCSS, SupaBase, Git
     description:
-      - Built using React and Supabase, Shuukan is a responsive web app designed to help users maintain their habits.
-      - "Source code can be found here: https://github.com/joonhyoo/study-calendar"
+      - Building and designing a responsive habit tracking web app.
+      - Implemented SSO using SupaBase to allow for a seamless sign in workflow.
   - title: "BearGuide"
     tech: React Native, Balsamiq, Figma, Git
     description:
-      - Worked in a team of 4 to create an app to help students find study spaces at UNSW.
-      - Written in React Native and designed using Balsamiq and Figma wireframes.
-      - Conducted usability tests to iterate the design around a user-centered design approach.
+      - Designed and implemented User Profile and User Favourites frames.
+      - Edited the product intro video and recieved a perfect grade.
+      - Conducted 40% of the usability tests used to iterate the design around a user-centered design approach.
 jobs:
   - position: Volleyball Coach
     company:
       name: Barker College
     type: Contract
     description:
-      - Head Coach for the Boys' 4ths (2025-26)
-      - Assistant Coach for the Boys' 2nds (2025-26)
-      - Helped coached games and trainings for the girls' & boys' teams (2024)
+      - Head and assistant coached for various teams.
     from: Oct 2024
     to: Present
     location: Sydney, Australia
 
-volunteer:
   - position: Men's Co-Director
     company:
       name: Lynx Volleyball Club
-    location: Sydney, Australia
+    type: Volunteer
+    description:
+      - Organised scrimmages, selected teams, and helped keep the club running.
     from: Mar 2024
     to: Dec 2025
+    location: Sydney, Australia
 
 other:
   - name: Hobbies
     items:
       - Competitive sports - Basketball & Volleyball
-      - Language learning - JLPT N2 (Expected January 2026)
+      - Language learning - JLPT N2 (2025)
