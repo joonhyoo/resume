@@ -12,18 +12,6 @@
     // (name: "location", link: "", display: configuration.contacts.address),
   ),
   [
-    == Education
-
-    #for edu in configuration.education [
-      === #if edu.place.link != "" [
-        #link(edu.place.link)[#edu.place.name] \
-      ] else [
-        #edu.place.name \
-      ]
-      #edu.degree \
-      #term[#edu.complete][#edu.location] \
-
-    ]
     == Projects
 
     #for project in configuration.projects [
@@ -36,7 +24,20 @@
       ]
     ]
 
-    == Work Experience
+    == Education
+
+    #for edu in configuration.education [
+      === #if edu.place.link != "" [
+        #link(edu.place.link)[#edu.place.name] \
+      ] else [
+        #edu.place.name \
+      ]
+      #edu.degree \
+      #term[#edu.complete][#edu.location] \
+
+    ]
+
+    == Work & Leadership Experience
 
     #for job in configuration.jobs [
       === #job.position \

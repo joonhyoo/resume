@@ -14,6 +14,29 @@ contacts:
 
 position: Graduate Software Engineer
 
+projects:
+  - title: "Confluence/Rovo: Answer Your Questions"
+    tech: React, Javascript, CSS, Git, Jira
+    description:
+      - Designed and implemented the FAQ macro component using Figma and React.
+      - Implemented an auto-escalation email feature, using the SendGrid API in vanilla Javascript.
+      - Reviewed and approved ~20% of pull requests by team mebmbers.
+      - Supported the team's execution through monitoring progress, and proactively addressing code quality/stability concerns in meetings.
+      - Participated in weekly stand-ups and adhered to Agile methodologies, ensuring features were delivered in a timely manner.
+      - Presented live technical demos for the client and incorporated feedback into following iterations.
+  - title: Shuukan - Visual Habit Tracker (WIP)
+    tech: React, TailwindCSS, SupaBase, Git
+    description:
+      - Designed a normalised relational database schema in PostGreSQL (via SupaBase).
+      - Implemented CRUD functionality through SQL queries.
+      - Integrated SupaBase backend services to handle SSO and authentication.
+  - title: "BearGuide"
+    tech: React Native, Balsamiq, Figma, Git
+    description:
+      - Designed and implemented User Profile and User Favourites frames.
+      - Edited the product intro video and recieved a perfect grade.
+      - Conducted 40% of the usability tests used to iterate the design around a user-centered design approach.
+
 education:
   - place:
       name: University of New South Wales
@@ -27,41 +50,21 @@ education:
     complete: Aug 2025
     degree: Spring Exchange Semester
     location: Tokyo, Japan
-  - place:
-      name: Osaka University - Center for International Education and Exchange
-      link: https://ciee.osaka-u.ac.jp/en/
-    degree: Winter J-Ship Program
-    complete: Feb 2025
-    location: Osaka, Japan
+# - place:
+#     name: Osaka University - Center for International Education and Exchange
+#     link: https://ciee.osaka-u.ac.jp/en/
+#   degree: Winter J-Ship Program
+#   complete: Feb 2025
+#   location: Osaka, Japan
 
-projects:
-  - title: "Confluence/Rovo: Answer Your Questions"
-    tech: React, Javascript, CSS, Git, Jira
-    description:
-      - Designed and implemented the FAQ macro component using React.
-      - Created the auto-escalation email feature, using the SendGrid API in vanilla Javascript.
-      - Reviewed and approved ~20% of pull requests by team mebmbers.
-      - Supported the team's execution through monitoring progress, and proactively addressing code quality/stability concerns in meetings.
-      - Participated in weekly stand-ups and adhered to Agile methodologies, ensuring features were delivered in a timely manner.
-      - Presented live technical demos for the client and incorporated feedback into subsequent versions.
-  - title: Shuukan - Visual Habit Tracker (WIP)
-    tech: React, TailwindCSS, SupaBase, Git
-    description:
-      - Building and designing a responsive habit tracking web app.
-      - Implemented SSO using SupaBase to allow for a seamless sign in workflow.
-  - title: "BearGuide"
-    tech: React Native, Balsamiq, Figma, Git
-    description:
-      - Designed and implemented User Profile and User Favourites frames.
-      - Edited the product intro video and recieved a perfect grade.
-      - Conducted 40% of the usability tests used to iterate the design around a user-centered design approach.
 jobs:
   - position: Volleyball Coach
     company:
       name: Barker College
     type: Contract
     description:
-      - Head and assistant coached for various teams.
+      - Facilitated and ran training sessions with groups of 20+ students on a weekly basis.
+      - Educated students on volleyball, and mental strategies to stay confident and positive.
     from: Oct 2024
     to: Present
     location: Sydney, Australia
@@ -71,7 +74,7 @@ jobs:
       name: Lynx Volleyball Club
     type: Volunteer
     description:
-      - Organised scrimmages, selected teams, and helped keep the club running.
+      - Helped to keep the club running.
     from: Mar 2024
     to: Dec 2025
     location: Sydney, Australia
