@@ -20,11 +20,11 @@ projects:
     description:
       - Designed and implemented the FAQ macro component using Figma and React.
       - Implemented an auto-escalation email feature, using the SendGrid API in vanilla Javascript.
-      - Reviewed and approved ~20% of pull requests by team mebmbers.
-      - Supported the team's execution through monitoring progress, and proactively addressing code quality/stability concerns in meetings.
-      - Participated in weekly stand-ups and adhered to Agile methodologies, ensuring features were delivered in a timely manner.
+      - Reviewed and approved ~20% of pull requests by team members.
+      - Monitored progress and proactively addressed code quality/stability concerns in meetings.
+      - Participated in weekly stand-ups and adhered to Agile methodologies.
       - Presented live technical demos for the client and incorporated feedback into following iterations.
-  - title: Shuukan - Visual Habit Tracker (WIP)
+  - title: Shuu - Visual Habit Tracker (WIP)
     tech: React, TailwindCSS, SupaBase, Git
     description:
       - Designed a normalised relational database schema in PostGreSQL (via SupaBase).
@@ -35,7 +35,7 @@ projects:
     description:
       - Designed and implemented User Profile and User Favourites frames.
       - Edited the product intro video and recieved a perfect grade.
-      - Conducted 40% of the usability tests used to iterate the design around a user-centered design approach.
+      - Conducted 40% of the usability tests to iterate the design around a user-centered design approach.
 
 education:
   - place:
@@ -83,4 +83,4 @@ other:
   - name: Hobbies
     items:
       - Competitive sports - Basketball & Volleyball
-      - Language learning - JLPT N2 (2025)
+      - Language learning - JLPT N2 (2026)
