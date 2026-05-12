@@ -18,31 +18,30 @@ projects:
   - title: "Confluence/Rovo: Answer Your Questions"
     tech: React, Javascript, CSS, Git, Jira
     description:
-      - Designed and implemented the FAQ macro component using Figma and React.
+      - Engineered an interactive FAQ macro using React that allowed users to rate response quality via a like/dislike system.
       - Implemented an auto-escalation email feature, using the SendGrid API in vanilla Javascript.
-      - Reviewed and approved ~20% of pull requests by team members.
-      - Monitored progress and proactively addressed code quality/stability concerns in meetings.
+      - Reviewed and approved ~20% of pull requests by team members, monitoring and ensuring code quality.
       - Participated in weekly stand-ups and adhered to Agile methodologies.
-      - Presented live technical demos for the client and incorporated feedback into following iterations.
+      - Presented fortnightly live technical demos for the client and incorporated feedback into following iterations.
   - title: Shuu - Visual Habit Tracker (WIP)
     tech: React, TailwindCSS, SupaBase, Git
     description:
       - Designed a normalised relational database schema in PostGreSQL (via SupaBase).
-      - Implemented CRUD functionality through SQL queries.
+      - Implemented CRUD interface, allowing users to create, log and modify daily habits.
       - Integrated SupaBase backend services to handle SSO and authentication.
   - title: "BearGuide"
     tech: React Native, Balsamiq, Figma, Git
     description:
       - Designed and implemented User Profile and User Favourites frames.
-      - Edited the product intro video and recieved a perfect grade.
-      - Conducted 40% of the usability tests to iterate the design around a user-centered design approach.
+      - Edited and produced the product video, introducing our problem statement and product scope.
+      - Conducted 40% of the usability tests resulting in UI updates to features like the heatmap toggle button.
 
 education:
   - place:
       name: University of New South Wales
       link: https://www.unsw.edu.au/
     degree: B.Sc. Computer Science
-    complete: Dec 2025
+    complete: Jan 2026
     location: Kensington, Australia
   - place:
       name: Keio University
@@ -74,7 +73,8 @@ jobs:
       name: Lynx Volleyball Club
     type: Volunteer
     description:
-      - Helped to keep the club running.
+      - Assisted in team selection, training jersey design, and social media.
+      - Co-ordinated with leaders to organise training sessions and scrimmages.
     from: Mar 2024
     to: Dec 2025
     location: Sydney, Australia
