@@ -12,29 +12,19 @@ contacts:
   #   url: https://joonhyoo.dev
   #   displayText: joonhyoo.dev
 
-position: Graduate Software Engineer
+location: Sydney, Australia
 
 projects:
   - title: "Confluence/Rovo: Answer Your Questions"
-    tech: React, Javascript, CSS, Git, Jira
     description:
-      - Engineered an interactive FAQ macro using React that allowed users to rate response quality via a like/dislike system.
-      - Implemented an auto-escalation email feature, using the SendGrid API in vanilla Javascript.
-      - Reviewed and approved ~20% of pull requests by team members, monitoring and ensuring code quality.
-      - Participated in weekly stand-ups and adhered to Agile methodologies.
-      - Presented fortnightly live technical demos for the client and incorporated feedback into following iterations.
-  - title: Shuu - Visual Habit Tracker (WIP)
-    tech: React, TailwindCSS, SupaBase, Git
-    description:
-      - Designed a normalised relational database schema in PostGreSQL (via SupaBase).
-      - Implemented CRUD interface, allowing users to create, log and modify daily habits.
-      - Integrated SupaBase backend services to handle SSO and authentication.
+      - Built a *React* FAQ macro with a like/dislike feedback system, giving readers and page owners visibility into answer quality.
+      - Implemented automated escalation emails via *SendGrid API*, triggering alerts on poor like/dislike ratios to surface low quality responses without manual intervention.
+      - Reviewed and approved pull requests across a team of *6 developers*, identifying and addressing duplicated logic and buggy code to maintain code quality.
+      - Configured *automated test execution* on branch push, reducing manual QA overhead and catching regressions earlier in the development cycle.
   - title: "BearGuide"
-    tech: React Native, Balsamiq, Figma, Git
     description:
-      - Designed and implemented User Profile and User Favourites frames.
-      - Edited and produced the product video, introducing our problem statement and product scope.
-      - Conducted 40% of the usability tests resulting in UI updates to features like the heatmap toggle button.
+      - Designed and built the User Profile and Favourites screens in *React Native*, owning the full flow from *Figma* wireframe to working implementation
+      - Led *40% of usability testing sessions*, synthesising user feedback into actionable UI changes that improved navigation clarity across key app features
 
 education:
   - place:

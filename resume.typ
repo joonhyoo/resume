@@ -3,7 +3,7 @@
 
 #vantage(
   name: configuration.contacts.name,
-  position: configuration.position,
+  location: configuration.location,
   links: (
     (name: "email", link: "mailto:" + configuration.contacts.email),
     // (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
@@ -18,9 +18,8 @@
       #show link: it => underline(stroke: (dash: "densely-dashed"), it)
       === #project.title \
       // #project.description
-      *Tech:* #project.tech\
       #for point in project.description [
-       - #point
+        - #eval(point, mode: "markup")
       ]
     ]
 

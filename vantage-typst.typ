@@ -19,9 +19,9 @@
       icon(service.name)
 
       if "display" in service.keys() {
-        link(service.link)[#{ service.display }]
+        underline(link(service.link)[#{ service.display }])
       } else {
-        link(service.link)
+        underline(link(service.link))
       }
     })
     .join(h(10pt))
@@ -47,7 +47,7 @@
 
 #let vantage(
   name: "",
-  position: "",
+  location: "",
   links: (),
   content,
 ) = {
@@ -83,11 +83,13 @@
     fill: primary_colour,
     it.body,
   )
+  grid(
+    columns: (1fr, 1fr),
+    align: (left, right),
+    text(16pt, weight: "bold", name),
+    text(9pt)[#icon("location") #location]
+  )
 
-  [= #name]
-  text(12pt, weight: "medium", [#position])
-
-  v(10pt)
   findMe(links)
   content
 }
