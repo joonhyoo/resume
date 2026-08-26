@@ -8,23 +8,28 @@ contacts:
   github:
     url: https://github.com/joonhyoo/
     displayText: "@joonhyoo"
-  # website:
-  #   url: https://joonhyoo.dev
-  #   displayText: joonhyoo.dev
+  website:
+    url: https://hyuji.dev
+    displayText: hyuji.dev
 
 location: Sydney, Australia
 
 projects:
+  - title: "Strength App"
+    description:
+      - Designed and shipped a full-stack strength-coaching platform with *SvelteKit*, *TypeScript*, and *Supabase*.
+      - Implemented offline-first *PWA* features via *service-worker caching*, *optimistic writes*, and gesture-based navigation to improve performance and mobile UX.
+      - Built an invite-only onboarding flow with *email OTP* verification and consent gating, using a dedicated *claim invite RPC* to securely link athletes to their coach.
   - title: "Confluence/Rovo: Answer Your Questions"
     description:
       - Built a *React* FAQ macro with a like/dislike feedback system, giving readers and page owners visibility into answer quality.
-      - Implemented automated escalation emails via *SendGrid API*, triggering alerts on poor like/dislike ratios to surface low quality responses without manual intervention.
+      - Implemented automated escalation emails via *SendGrid API*, triggering alerts on poor like/dislike ratios to surface low-quality responses without manual intervention.
       - Reviewed and approved pull requests across a team of *6 developers*, identifying and addressing duplicated logic and buggy code to maintain code quality.
       - Configured *automated test execution* on branch push, reducing manual QA overhead and catching regressions earlier in the development cycle.
   - title: "BearGuide"
     description:
-      - Designed and built the User Profile and Favourites screens in *React Native*, owning the full flow from *Figma* wireframe to working implementation
-      - Led *40% of usability testing sessions*, synthesising user feedback into actionable UI changes that improved navigation clarity across key app features
+      - Designed and built the User Profile and Favourites screens in *React Native*, owning the full flow from *Figma* wireframe to working implementation.
+      - Led *40% of usability testing sessions*, synthesising user feedback into actionable UI changes that improved navigation clarity across key app features.
 
 education:
   - place:
